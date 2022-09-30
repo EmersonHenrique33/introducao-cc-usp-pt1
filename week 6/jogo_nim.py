@@ -94,31 +94,5 @@ def menu():
       break
     elif menu == 3:
       break
+    
 menu()
-
-def test_deficicao():
-  assert definicao_inicio(15, 4) == False
-
-def test_deficicao1():
-  assert definicao_inicio(14, 4) == True
-
-def test_deficicao6():
-  assert definicao_inicio(3, 1) == True
-
-def test_deficicao3():
-  assert definicao_inicio(75, 4) == False
-  
-def test_deficicao4():
-  assert definicao_inicio(61, 4) == True
-  
-def test_deficica5():
-  assert definicao_inicio(27, 4) == True
-  
-def test_jogadaPc():
-  assert computador_escolhe_jogada(2, 2) == 2
-
-def test_jogadaPc1():
-  assert computador_escolhe_jogada(10, 2) == 1
-
-def test_jogadaPc2():
-  assert computador_escolhe_jogada(3, 1) == 1
